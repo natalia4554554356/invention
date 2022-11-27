@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ЧНУ</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <meta name="viewport" content="width=device-width">
+
+</head>
+<body>
+<header class="header">
+    <nav class="navigation">
+        <div class="link__wrapper">
+            <a href="index.html" class="nav__link">Додому</a>
+        </div>
+        <div class="link__wrapper">
+            <a href="about.html" class="nav__link">Про себе</a>
+        </div>
+        <div class="link__wrapper">
+            <a href="hobbies.html" class="nav__link">Хоббі</a>
+        </div>
+        <div class="link__wrapper">
+            <a href="chnu.html" class="nav__link nav__link_active">ВНЗ</a>
+        </div>
+        <div class="link__wrapper">
+            <a href="job.html" class="nav__link">Профессія</a>
+        </div>
+        <div class="link__wrapper">
+            <a href="contacts.html" class="nav__link">Контакти</a>
+        </div>
+    </nav>
+</header>
+
+<header class="header__mobile">
+    <nav class="navigation">
+        <div class="menu__wrapper">
+            <div class="link__wrapper">
+                <a href="job.html" class="nav__link nav__link_active">ВНЗ</a>
+            </div>
+            <button class="menu__button" onclick="burger_menu_toggle()">
+                \/
+            </button>
+        </div>
+        <div class="burger_menu_items">
+            <a href="index.html" class="burger_menu_item">Додому</a>
+            <a href="about.html" class="burger_menu_item">Про мене</a>
+            <a href="hobbies.html" class="burger_menu_item">Хоббі</a>
+            <a href="chnu.html" class="burger_menu_item">Профессія</a>
+            <a href="contacts.html" class="burger_menu_item">Контакти</a>
+        </div>
+    </nav>
+</header>
+
+<main class="main main_grid">
+    <div class="main__part">
+        <div class="card card_intro_left">
+            <img src="assets/chnu/chnu.jpg" alt="" class="card__image">
+            <p class="card__text">Черкаський Національний Університет ім. Богдана Хмельницького</p>
+        </div>
+        <div class="card card__rightside card_intro_left">
+            <img src="assets/chnu/akit.jpg" alt="" class="card__image">
+            <p class="card__text">Кафедра АКІТ ЧНУ ім. Б. Хмельницького</p>
+        </div>
+        <div class="card card_intro_left">
+            <img src="assets/chnu/subject.jpg" alt="" class="card__image">
+            <p class="card__text">Середня освіта інформатика.</p>
+        </div>
+    </div>
+    <div class="main__part">
+        <div class="post card_intro_right card">
+            <img src="assets/chnu/chnu_post.jpg" alt="" class="post__image">
+            <p class="card__text">Для вступу необхідні сертифікати ЗНО: українська мова та література (обов’язковий);
+                математика (обов’язковий); фізика або іноземна мова (на вибір).
+                Підготовка здобувачів вищої освіти за спеціальністю «014 Середня освіта (Інформатика)» спрямована на
+                формування у них фахових компетентностей щодо програмування; проектування, створення та підтримки
+                найрізноманітніших інформаційних систем; використання сучасних інформаційних технологій, новітніх
+                методик у проектуванні та провадженні освітньої діяльності.</p>
+        </div>
+    </div>
+</main>
+
+<section class="mobile_main">
+    <div class="card card_intro_left">
+        <img src="assets/chnu/chnu.jpg" alt="" class="card__image">
+        <p class="card__text">Черкаський Національний Університет ім. Богдана Хмельницького</p>
+    </div>
+    <div class="card card__rightside card_intro_left">
+        <img src="assets/chnu/akit.jpg" alt="" class="card__image">
+        <p class="card__text">Кафедра АКІТ ЧНУ ім. Б. Хмельницького</p>
+    </div>
+    <div class="card card_intro_left">
+        <img src="assets/chnu/subject.jpg" alt="" class="card__image">
+        <p class="card__text">Середня освіта інформатика.</p>
+    </div>
+    <div class="post card_intro_right card">
+        <img src="assets/chnu/chnu_post.jpg" alt="" class="post__image">
+        <p class="card__text">Для вступу необхідні сертифікати ЗНО: українська мова та література (обов’язковий);
+            математика (обов’язковий); фізика або іноземна мова (на вибір).
+            Підготовка здобувачів вищої освіти за спеціальністю «014 Середня освіта (Інформатика)» спрямована на
+            формування у них фахових компетентностей щодо програмування; проектування, створення та підтримки
+            найрізноманітніших інформаційних систем; використання сучасних інформаційних технологій, новітніх
+            методик у проектуванні та провадженні освітньої діяльності.</p>
+    </div>
+</section>
+
+</body>
+<script src="script/page.js"></script>
+</html>
+
